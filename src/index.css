@@ -13,3 +13,10 @@ body {
   min-height: 100vh; 
   margin: 0; 
 }
+/* Clase para las imágenes del carrusel */
+.carousel-image {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+  height: 100%; /* Asegura que la imagen ocupe todo el alto del contenedor */
+  object-fit: cover; /* Asegura que la imagen cubra el contenedor sin deformarse */
+  border-radius: 10px; /* Opcional: Agrega bordes redondeados si lo deseas */
+}
